@@ -1,12 +1,5 @@
-// Hide loading screen once page loads
-
-const loading_screen = document.getElementById("loading-screen");
-window.addEventListener('load', function () {
-    loading_screen.style.display = 'none';
-})
-
 let selected_conversion = "";
-let conversion_multiplier = null;
+let conversion_multiplier;
 
 const miles_to_kilometers_multipler = 1.60934;
 const kilometers_to_miles_multiplier = 0.621371;
